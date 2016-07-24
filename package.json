@@ -1,0 +1,37 @@
+{
+  "name": "latest-github-tag",
+  "version": "1.0.0",
+  "description": "Fetch the latest tag name from a GitHub repo (promise-based)",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard index.js && mocha"
+  },
+  "author": "Michael Keller",
+  "license": "MIT",
+  "keywords": [
+    "latest",
+    "tag",
+    "promise",
+    "github",
+    "pkg",
+    "package",
+    "current"
+  ],
+  "dependencies": {
+    "github": "^2.2.0",
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhkeller/latest-github-tag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhkeller/latest-github-tag/issues"
+  },
+  "homepage": "https://github.com/mhkeller/latest-github-tag#readme"
+}
