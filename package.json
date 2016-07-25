@@ -1,6 +1,6 @@
 {
   "name": "latest-github-tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch the latest tag name from a GitHub repo (promise-based)",
   "main": "index.js",
   "scripts": {
